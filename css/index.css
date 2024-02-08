@@ -61,11 +61,29 @@ img{
     margin-top: 40px;
 }
 
+.row, .hero{
+    margin-top: 30px;
+}
+
 .col-text{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .col-img{
     width: 60%;
 }
 
+.button-free-try{
+    margin-top: 20px;
+}
+
+.dismiss-any-time{
+    margin-top: 20px;
+}
+
+.arrow{
+   flex-grow: 1;
+}
