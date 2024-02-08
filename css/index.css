@@ -17,6 +17,10 @@ a{
     text-decoration: none;
     color: currentColor;
 }
+
+img{
+    width: 100%;
+}
                                                      /* HEADER */
 
 
@@ -48,8 +52,13 @@ a{
     margin: 0 auto;
 }
 
+.hero{
+    background-color: #b4d0e7;
+}
+
 .title{
     font-size: 80px;
+    margin-top: 40px;
 }
 
 .col-text{
