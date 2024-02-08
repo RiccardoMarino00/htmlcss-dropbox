@@ -114,6 +114,10 @@ body{
     font-size: 40px;
 }
 
+.title-business-plan{
+    margin-top: 60px;
+}
+
 .col-3{
     width: 300px;
     border: 1px solid gray;
@@ -122,11 +126,50 @@ body{
 .single{
     border-bottom: 1px solid black;
     text-align: center;
+    padding: 10px;
+}
+
+.card-1{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.status{
+    padding-top: 20px;
+}
+
+.euro{
+    padding-top: 20px;
+}
+
+.month{
+    padding-top: 5px;
+}
+
+.stats{
+    padding-top: 20px; 
+}
+
+.item-stats{
+    padding: 10px;
+}
+
+.thirty-days{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.compra-ora{
+    margin-top: 20px;
 }
 
 .buy-now{
     text-decoration: underline;
     color: blue;
+}
+
+.list-bottom-card{
+    margin-top: 60px;
 }
 
 .check{
