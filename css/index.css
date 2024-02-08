@@ -49,6 +49,13 @@ body{
 .item-list{
     padding: 10px;
 }
+
+.button{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 8px;
+}
                                                         /* MAIN */
 
 .container-md{
@@ -80,7 +87,7 @@ body{
     width: 60%;
 }
 
-.button-free-try{
+.free-try{
     margin-top: 20px;
 }
 
@@ -88,4 +95,6 @@ body{
     margin-top: 20px;
 }
 
-
+.arrow{
+    font-size: 40px;
+}
