@@ -43,7 +43,7 @@ body{
 }
 
 .container-sm{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -112,10 +112,7 @@ body{
 
 .fa-arrow-down{
     font-size: 40px;
-    flex-grow: 1;
-    margin: 0 auto;
-    padding-top: 190px;
-    padding-right: 500px;
+    margin-top: auto;
 }
 
 .title-business-plan{
@@ -130,6 +127,13 @@ body{
 .col-3{
     width: 300px;
     border: 1px solid gray;
+
+}
+
+.col-100{
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 20px;
 }
 
 .single{
@@ -140,7 +144,7 @@ body{
 
 .card-1{
     text-align: left;
-    padding-left: 20px;
+    padding: 10px;
 }
 
 .status{
@@ -155,6 +159,7 @@ body{
 
 .month{
     padding-top: 5px;
+    color: lightgray;
 }
 
 .stats{
@@ -171,8 +176,29 @@ body{
     font-weight: 300;
 }
 
+.thirty-days-enterprise{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 300;
+    align-self: flex-end;
+}
+
+.enterprise{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.status, .enterprise{
+    margin-top: -25px;
+}
+
+.p-enterprise{
+    margin-top: 10px;
+}
+
 .compra-ora{
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .buy-now{
