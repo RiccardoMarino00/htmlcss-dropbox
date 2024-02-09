@@ -43,7 +43,7 @@ body{
 }
 
 .container-sm{
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -85,6 +85,10 @@ body{
 .title{
     font-size: 80px;
     margin-top: 40px;
+}
+
+.radio{
+    margin-top: 20px;
 }
 
 .row, .hero{
@@ -225,16 +229,35 @@ body{
 
 .col-text-main{
     width: 40%;
-    display: flex;
+    padding-left: 40px;
+    padding-top: 60px
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
 }
 
 .p-text-main{
-    padding-top: -15px;
+    padding-top: 15px;
+}
+
+.button-partner{
+    margin-top: 20px;
+    background-color: transparent;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px;
 }
 
 .row, .partner{
     margin-top: 100px;
+}
+
+.col-6{
+    width: 300px;
+    padding: 10px;
+}
+
+.business-feature{
+    margin-top: 10px;
 }
