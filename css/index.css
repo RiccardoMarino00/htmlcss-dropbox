@@ -92,7 +92,7 @@ body{
 }
 
 .row, .hero{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .col-text{
@@ -125,7 +125,7 @@ body{
 }
 
 .row, .fatturazioni{
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .col-3{
@@ -250,7 +250,12 @@ body{
 }
 
 .row, .partner{
-    margin-top: 100px;
+    /* margin-top: 100px; */
+}
+
+.title-operation{
+    margin-top: 60px;
+    /* margin-bottom: -30px; */
 }
 
 .col-6{
@@ -261,3 +266,41 @@ body{
 .business-feature{
     margin-top: 10px;
 }
+
+.info{
+    line-height: 35px;
+}
+
+.info-client{
+    text-decoration: underline;
+    color: rgb(61, 61, 244);
+}
+
+.container-sm, .info{
+    margin-top: 90px;
+}
+
+.col-square{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.col-rectangle{
+    width: calc(100% / 3);
+}
+
+.designit-rectangle{
+    width: 200px;
+}
+
+.little-square{
+    height: 170px;
+    width: 170px;
+    background-color: darkorchid;
+}
+
+/* .row, .square{
+    justify-content: center;
+} */
