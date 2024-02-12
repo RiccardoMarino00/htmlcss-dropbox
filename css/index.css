@@ -117,11 +117,25 @@ body{
 .fa-arrow-down{
     font-size: 40px;
     margin-top: auto;
+    margin-bottom: 15px;
 }
 
 .title-business-plan{
     margin-top: 60px;
     font-size: 35px;
+}
+
+.radio{
+    padding: 30px;
+}
+
+.radio-div{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.radio-span{
+    margin-right: 20px;
 }
 
 .row.fatturazioni{
@@ -249,8 +263,8 @@ body{
     padding: 5px;
 }
 
-.row, .partner{
-    /* margin-top: 100px; */
+.row.partner{
+    margin-top: 100px;
 }
 
 .title-operation{
@@ -277,7 +291,13 @@ body{
 }
 
 .container-sm.info{
+    margin-bottom: 90px;
+}
+
+.container-sm .info{
     margin-top: 90px;
+    margin-bottom: 40px;
+
 }
 
 .col-square{
@@ -310,7 +330,7 @@ body{
 
 .row.lightblue{
     justify-content: space-between;
-    padding: 60px;
+    padding: 100px;
 }
 
 .dropbox-business{
