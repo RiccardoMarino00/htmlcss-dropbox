@@ -53,7 +53,7 @@ body{
 
 
 
-.row, .nav{
+.row.nav{
     justify-content: space-between;
 }
 
@@ -124,8 +124,8 @@ body{
     font-size: 35px;
 }
 
-.row, .fatturazioni{
-    /* justify-content: space-around; */
+.row.fatturazioni{
+    justify-content: space-between;
 }
 
 .col-3{
@@ -276,7 +276,7 @@ body{
     color: rgb(61, 61, 244);
 }
 
-.container-sm, .info{
+.container-sm.info{
     margin-top: 90px;
 }
 
@@ -296,9 +296,66 @@ body{
 }
 
 .little-square{
-    height: 170px;
-    width: 170px;
+    aspect-ratio: 1/1;
+    width: 50%;
     background-color: darkorchid;
+}
+
+.img-square{
+    /* text-align: center; */
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+.row.lightblue{
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.dropbox-business{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.container-sm.answer{
+    margin-top: 100px;
+}
+
+.title-answer{
+    padding: 20px;
+}
+
+.chevron-down{
+    margin-left: 280px;
+}
+
+.chevron-li{
+    padding: 30px;
+}
+
+.row.footer{
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.title-list-footer{
+    margin-left: 6px;
+    padding-bottom: 10px;
+}
+
+.item-footer{
+    padding: 7px;
+}
+
+.languages{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.select-languages{
+    margin-top: 20px;
 }
 
 /* .row, .square{
