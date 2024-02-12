@@ -120,6 +120,53 @@ body{
     margin-bottom: 15px;
 }
 
+.go-down{
+    animation-name: go-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: cubic-bezier(0,.97,1,-0.18); */
+    /* animation-timing-function: cubic-bezier(.6,.37,.88,.02) */
+    animation-timing-function: cubic-bezier(0,-0.01,1,.99);
+}
+
+@keyframes go-down{
+    0%{
+        transform: translateY(0px);
+    }
+
+    10%{
+        transform: translateY(-10px);
+    }
+
+    20%{
+        transform: translateY(-20px);
+    }
+    30%{
+        transform: translateY(-30px);
+    }
+    40%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    60%{
+        transform: translateY(-60px);
+    }
+    70%{
+        transform: translateY(-70px);
+    }
+    80%{
+        transform: translateY(-80px);
+    }
+    90%{
+        transform: translateY(-90px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 .title-business-plan{
     margin-top: 60px;
     font-size: 35px;
@@ -168,6 +215,12 @@ body{
 .status{
     padding-top: 20px;
     font-size: 25px;
+}
+
+.hr-cards{
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 .euro{
@@ -309,6 +362,12 @@ body{
 
 .col-rectangle{
     width: calc(100% / 3);
+    padding: 20px;
+}
+
+.cit{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .designit-rectangle{
@@ -319,18 +378,25 @@ body{
     aspect-ratio: 1/1;
     width: 50%;
     background-color: darkorchid;
+    vertical-align: middle;
 }
 
 .img-square{
-    /* text-align: center; */
     margin: auto;
     width: 50%;
     display: block;
+    margin-top: 75px;
 }
 
 .row.lightblue{
     justify-content: space-between;
     padding: 100px;
+}
+
+.button-prova-gratuita{
+    border: none;
+    padding: 15px;
+    font-size: 17px;
 }
 
 .dropbox-business{
